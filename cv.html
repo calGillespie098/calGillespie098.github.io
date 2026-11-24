@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Calum Gillespie – CV</title>
+<style>
+  @page { size: A4; margin: 14mm 15mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1b1f24; margin: 0; }
+  header { border-bottom: 2px solid #1f4e79; padding-bottom: 6px; margin-bottom: 8px; }
+  h1 { font-size: 21pt; margin: 0; color: #1f4e79; letter-spacing: .3px; }
+  .contact { font-size: 9.4pt; color: #333; margin-top: 2px; }
+  .contact a { color: #1f4e79; text-decoration: none; }
+  h2 { font-size: 10.8pt; text-transform: uppercase; letter-spacing: 1px; color: #1f4e79; border-bottom: 1px solid #b7c7d8; margin: 11px 0 5px; padding-bottom: 1px; }
+  p { margin: 0 0 4px; }
+  ul { margin: 2px 0 5px; padding-left: 17px; }
+  li { margin-bottom: 1.5px; }
+  .row { display: flex; justify-content: space-between; gap: 10px; }
+  .row b { font-weight: 600; }
+  .meta { color: #555; font-style: italic; white-space: nowrap; }
+  .item { margin-bottom: 6px; break-inside: avoid; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.4pt; }
+  td { padding: 1px 0; vertical-align: top; }
+  td:first-child { width: 22%; font-weight: 600; }
+  .page-break { break-before: page; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Calum Ciaran Gillespie</h1>
+  <div class="contact">Dundee, Scotland &nbsp;|&nbsp; <a href="mailto:gillespiecalum4@gmail.com">gillespiecalum4@gmail.com</a> &nbsp;|&nbsp; <a href="https://github.com/calGillespie098">github.com/calGillespie098</a></div>
+</header>
+
+<p><b>Application:</b> Industrial Placement Systems Engineer – Leonardo UK, Edinburgh (Ref. R0033551)</p>
+
+<h2>Personal Profile</h2>
+<p>Second-year Computer Science student at the University of Dundee with a strong interest in verified and real-time systems, currently self-studying the seL4 microkernel and its mixed-criticality (MCS) extensions. I enjoy breaking a system into requirements and parts, then checking that each part does what it is meant to. I write Java, Python and low-level C, I work well in a team, and I am used to explaining technical ideas clearly through teaching and tutoring. I am looking for a placement where I can apply my programming and analytical skills to real engineering problems.</p>
+
+<h2>Education</h2>
+<div class="item">
+  <div class="row"><span><b>University of Dundee</b> – BSc Computer Science (Year 2, in progress)</span></div>
+  <ul>
+    <li>Java projects covering data structures and algorithms, JavaFX/Swing GUIs and team software development, alongside Python and C/C++.</li>
+    <li>Self-directed study beyond the curriculum: seL4 microkernel, formal verification concepts and mixed-criticality scheduling (MCS).</li>
+  </ul>
+</div>
+<div class="item">
+  <b>School and other qualifications</b>
+  <table>
+    <tr><td>Highers</td><td>Mathematics (A); Computing Science (B); Graphic Communication (B); Physics (C); Chemistry (C)</td></tr>
+    <tr><td>National 5</td><td>Mathematics (A); Applications of Mathematics (A); Computing Science (A); Chemistry (A); Biology (A); Graphic Communication (A); Physics (B); English (B)</td></tr>
+    <tr><td>Advanced / S6</td><td>Mathematics (D); Higher Biology (C); Higher Business (C); NPA Cyber Security, SCQF Level 6 (Pass); Open University TM129 <i>Technologies in Practice</i> (Pass)</td></tr>
+  </table>
+</div>
+
+<h2>Projects</h2>
+<div class="item">
+  <div class="row"><span><b>Poker AI – game engine and neural-network training</b> (team of two)</span><span class="meta">Python</span></div>
+  <ul>
+    <li>Designed and built the poker game engine in Python that the training work runs on.</li>
+    <li>Wrote much of the project report, including the mathematical reasoning on why our training sets were unlikely to coincide with the final evaluation sets for our non-agentic neural network.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><span><b>Messaging-app clone with automated replies – Data Structures &amp; Algorithms project</b> (team of two)</span><span class="meta">Java, JavaFX, Gradle, JSON</span></div>
+  <ul>
+    <li>Built a WhatsApp-style chat demo with automated responses; wrote a large part of the back end and some of the JavaFX interface.</li>
+    <li>Used Gradle for builds and JSON files for saved data. Code is public on GitHub.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><span><b>Lightweight emergency dispatch system – CS12002 Assignment 1</b> (team of two)</span><span class="meta">Java</span></div>
+  <ul>
+    <li>Built a lightweight emergency dispatch system in Java as a course assignment, working with a partner.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><span><b>Low-level systems: coreboot and seL4 (self-directed)</b></span><span class="meta">C, firmware, microkernels</span></div>
+  <ul>
+    <li>Replaced the stock firmware on my own laptop with coreboot, learning how the platform boots and what runs before the OS.</li>
+    <li>Studying seL4 and its MCS work, which concerns predictable, time-bounded scheduling for systems that mix critical and non-critical tasks.</li>
+    <li>Written C that manages its own heap allocation without the standard library, to understand memory behaviour directly.</li>
+  </ul>
+</div>
+
+<div class="page-break"></div>
+
+<h2>Technical Skills</h2>
+<table>
+  <tr><td>Languages</td><td>Java, Python, C (including non-standard-library code with manual heap allocation), C++, SQL, JavaScript, HTML/CSS; working knowledge of C#, Visual Basic and Kotlin (JetBrains workshop)</td></tr>
+  <tr><td>GUI frameworks</td><td>JavaFX, Swing, XAML</td></tr>
+  <tr><td>Tools</td><td>Git and GitHub, Gradle</td></tr>
+  <tr><td>Systems &amp; security</td><td>seL4 (self-study), coreboot, NPA Cyber Security (SCQF 6)</td></tr>
+  <tr><td>Modelling &amp; making</td><td>Blender (3D modelling and animation), Fusion 360, 3D printing, electronics and guitar set-up/modification</td></tr>
+</table>
+
+<h2>Work &amp; Teaching Experience</h2>
+<div class="item">
+  <div class="row"><span><b>Front of House / General Assistant</b> – community-owned pub restaurant</span><span class="meta">Part-time</span></div>
+  <ul>
+    <li>Take orders, wait tables and plate desserts in a busy team; a valued member of staff trusted to cover several roles.</li>
+    <li>Deal with customers directly, staying calm and clear under time pressure.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><span><b>Tutor and peer teacher</b> – school and private</span><span class="meta">Part-time</span></div>
+  <ul>
+    <li>Tutor National 5 and Higher pupils in Computing, Mathematics and Biology, adapting explanations to each learner.</li>
+    <li>Taught a group of S1 pupils foundation mathematics after traditional teaching had not worked for them; the pupils responded well.</li>
+    <li>Taught junior pupils robotics and computing for three years and trained members of the school robotics team for competitions.</li>
+    <li>Taught animation to students with additional support needs; scribed and read for pupils from S1 to S5 in Biology and Mathematics tests.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><span><b>School Robotics Club</b></span><span class="meta">Team member</span></div>
+  <ul>
+    <li>Programmed and built robots with the team and won competitions at national level.</li>
+  </ul>
+</div>
+
+<h2>Transferable Skills</h2>
+<table>
+  <tr><td>Teamwork</td><td>Course and project work done in pairs: shared repositories, split responsibilities (back end vs. GUI, engine vs. write-up).</td></tr>
+  <tr><td>Communication</td><td>Years of explaining computing and mathematics to pupils at different levels; project reports and documentation.</td></tr>
+  <tr><td>Problem solving</td><td>Breaking problems down and reasoning about them mathematically – from training-set analysis to firmware and kernel concepts.</td></tr>
+  <tr><td>Self-motivation</td><td>Studied Open University TM129 and NPA Cyber Security in my own time, and continue to study seL4 beyond my course.</td></tr>
+  <tr><td>Reliability</td><td>Sustained part-time work alongside study; Duke of Edinburgh Bronze award.</td></tr>
+</table>
+
+<h2>Alignment with the Role</h2>
+<ul>
+  <li><b>Requirements, verification and validation:</b> my interest in verified systems (seL4) is about showing that a design meets its specification – the same mindset as requirements capture and V&amp;V.</li>
+  <li><b>Algorithms, modelling and data analysis:</b> game engine and probability work in Python; data structures and algorithms coursework in Java.</li>
+  <li><b>Real-time, safety-critical thinking:</b> self-study of mixed-criticality scheduling and low-level C.</li>
+  <li><b>Communication and working relationships:</b> teaching, tutoring and customer-facing work.</li>
+</ul>
+
+<h2>Interests &amp; Activities</h2>
+<ul>
+  <li>Bouldering; previously karate (white and brown belt) until a wrist injury (TFCC tear) that is now healing.</li>
+  <li>Guitar and bass: self-taught; I buy second-hand instruments and improve them with my own electronics and set-up work.</li>
+  <li>Blender animation and digital art; designing and printing functional parts for my own and friends' projects.</li>
+  <li>Beavers, Cubs and Scouts; school climbing and gardening clubs; Duke of Edinburgh Bronze award.</li>
+</ul>
+
+<p style="margin-top:8px"><b>References:</b> available on request.</p>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calum Gillespie – Computer Science Portfolio</title>
+<meta name="description" content="Portfolio of Calum Gillespie, second-year Computer Science student at the University of Dundee interested in verified and real-time systems.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav aria-label="Main">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#links">Profiles</a></li>
+    <li><a href="#appendix">Appendix</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <h1>Calum Gillespie</h1>
+    <p class="tag">Computer Science student · University of Dundee · Interested in verified and real-time systems</p>
+    <p>I'm a second-year Computer Science student who likes understanding how systems work from the bottom up – from the firmware that boots a laptop to the microkernel that schedules tasks. I'm currently studying <b>seL4</b>, a formally verified microkernel, including its mixed-criticality (MCS) scheduling work. I write Java, Python and low-level C, and I enjoy teaching what I learn: I've tutored and taught pupils in computing and maths for several years.</p>
+    <p>I'm looking for an industrial placement where I can work on real engineering problems, with requirements, verification and modelling at the centre – for example the Systems Engineer placement at Leonardo UK that this portfolio's CV is tailored to.</p>
+    <a class="btn" href="assets/Calum_Gillespie_CV.pdf">Download my CV (PDF)</a>
+    <a class="btn alt" href="mailto:gillespiecalum4@gmail.com">Get in touch</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section id="projects">
+  <h2>Work samples &amp; projects</h2>
+  <p class="muted">Most of my work so far is university coursework done in pairs with a teammate, plus self-directed low-level study. Each project says what I personally did.</p>
+  <div class="grid">
+
+    <article class="card">
+      <h3>Messaging-app clone with automated replies</h3>
+      <p class="muted">Data Structures &amp; Algorithms final project · team of two</p>
+      <p>A WhatsApp-style messaging demo, with automated responses, built in Java with a GUI.</p>
+      <p>
+        <span class="chip">Java</span><span class="chip">JavaFX</span><span class="chip">Gradle</span><span class="chip">JSON</span>
+      </p>
+      <dl>
+        <dt>My role</dt><dd>I wrote a large part of the back end and some of the JavaFX interface.</dd>
+        <dt>Challenges &amp; skills</dt><dd>Splitting back end and GUI between two people meant agreeing clear interfaces early. I learned Gradle builds, JSON persistence and JavaFX.</dd>
+      </dl>
+      <p><a href="https://github.com/Miyxzu/DSAProj">View the repository on GitHub</a> (hosted on my teammate's account)</p>
+    </article>
+
+    <article class="card">
+      <h3>Poker AI – game engine &amp; training analysis</h3>
+      <p class="muted">University project · team of two</p>
+      <p>A poker-playing system trained as a non-agentic neural network, with a purpose-built game engine to produce and evaluate games.</p>
+      <p><span class="chip">Python</span><span class="chip">Neural networks</span><span class="chip">Probability</span></p>
+      <dl>
+        <dt>My role</dt><dd>I built the game engine in Python and wrote much of the report, including the mathematical reasoning on why our training sets were unlikely to coincide with the final evaluation sets.</dd>
+        <dt>Challenges &amp; skills</dt><dd>Modelling the rules of a game exactly, and reasoning about data leakage between training and evaluation sets.</dd>
+      </dl>
+      <p class="muted">Repository is currently private – available on request.</p>
+    </article>
+
+    <article class="card">
+      <h3>Lightweight emergency dispatch system</h3>
+      <p class="muted">CS12002 Assignment 1 · team of two</p>
+      <p>A lightweight emergency dispatch system written in Java as part of my Data Structures module.</p>
+      <p><span class="chip">Java</span><span class="chip">Data structures</span><span class="chip">Git</span></p>
+      <dl>
+        <dt>My role</dt><dd>Co-developed the system with my partner, sharing the work through a Git repository.</dd>
+        <dt>Challenges &amp; skills</dt><dd>Applying data-structure knowledge to a realistic scenario and working as a pair.</dd>
+      </dl>
+      <p class="muted">Repository is currently private – available on request.</p>
+    </article>
+
+    <article class="card">
+      <h3>seL4 study &amp; coreboot on my laptop</h3>
+      <p class="muted">Self-directed · individual · ongoing</p>
+      <p>I replaced the stock firmware on my own laptop with coreboot and am studying the seL4 microkernel, particularly its MCS (mixed-criticality scheduling) work, which aims for predictable, time-bounded behaviour backed by formal proof.</p>
+      <p><span class="chip">C</span><span class="chip">Firmware</span><span class="chip">seL4</span><span class="chip">Microkernels</span></p>
+      <dl>
+        <dt>My role</dt><dd>All of it – this is my own project and study.</dd>
+        <dt>Challenges &amp; skills</dt><dd>seL4 needs a lot of background before you can build anything, so most of my effort has gone into understanding capabilities, scheduling and the verification approach. It has taught me to read specifications and documentation carefully and to be patient with a steep learning curve.</dd>
+      </dl>
+    </article>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Technical &amp; transferable skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Technical skills</h3>
+      <dl>
+        <dt>Languages</dt>
+        <dd><span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span><span class="chip">C++</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span><span class="chip">C#</span><span class="chip">Visual Basic</span><span class="chip">Kotlin (workshop)</span></dd>
+        <dt>GUI &amp; tools</dt>
+        <dd><span class="chip">JavaFX</span><span class="chip">Swing</span><span class="chip">XAML</span><span class="chip">Git/GitHub</span><span class="chip">Gradle</span></dd>
+        <dt>Systems &amp; security</dt>
+        <dd><span class="chip">seL4 (self-study)</span><span class="chip">coreboot</span><span class="chip">NPA Cyber Security</span></dd>
+        <dt>Modelling &amp; making</dt>
+        <dd><span class="chip">Blender</span><span class="chip">Fusion 360</span><span class="chip">3D printing</span><span class="chip">Electronics</span></dd>
+      </dl>
+    </div>
+    <div class="card">
+      <h3>Transferable skills, with examples</h3>
+      <dl>
+        <dt>Teamwork</dt><dd>Course projects built in pairs, splitting work such as back end vs. GUI and engine vs. report.</dd>
+        <dt>Communication</dt><dd>Tutoring National 5 and Higher pupils in Computing, Maths and Biology; teaching S1 pupils foundation maths when traditional teaching wasn't working; teaching animation to students with additional support needs.</dd>
+        <dt>Leadership</dt><dd>Trained school robotics team members for competitions after competing and winning at national level myself.</dd>
+        <dt>Customer service &amp; reliability</dt><dd>Front of house and general assistant at a community-owned pub restaurant alongside my studies.</dd>
+        <dt>Self-motivation</dt><dd>Studied Open University TM129 and NPA Cyber Security in my own time, plus seL4 beyond my degree.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <h3 style="margin-top:24px">Code example: manual heap allocation in C</h3>
+  <p class="muted">A deliberately small illustration of the kind of low-level work I practise: a bump allocator over a fixed buffer, with no standard library allocation.</p>
+<pre><code>#include &lt;stddef.h&gt;
+#include &lt;stdint.h&gt;
+
+static uint8_t heap[4096];
+static size_t  used = 0;
+
+/* Returns an 8-byte-aligned block, or NULL if the heap is exhausted. */
+void *bump_alloc(size_t size) {
+    size_t aligned = (size + 7u) &amp; ~(size_t)7u;
+    if (aligned &lt; size || aligned &gt; sizeof heap - used)
+        return NULL;
+    void *p = &amp;heap[used];
+    used += aligned;
+    return p;
+}</code></pre>
+  <p class="muted">Illustrative snippet written for this portfolio; my full allocator work is not yet public. More code is in the <a href="https://github.com/Miyxzu/DSAProj">DSAProj repository</a>.</p>
+</section>
+
+<section id="cv">
+  <h2>CV</h2>
+  <p>My two-page CV is tailored to the Leonardo UK <i>Industrial Placement Systems Engineer</i> role (ref. R0033551). <a href="assets/Calum_Gillespie_CV.pdf" download>Download the PDF</a>.</p>
+  <iframe class="cvframe" src="assets/Calum_Gillespie_CV.pdf" title="Calum Gillespie CV (PDF)">
+    Your browser can't display the PDF. <a href="assets/Calum_Gillespie_CV.pdf">Download it here</a>.
+  </iframe>
+</section>
+
+<section id="links">
+  <h2>Professional profiles</h2>
+  <ul>
+    <li><a href="https://github.com/calGillespie098">GitHub – calGillespie098</a></li>
+    <li><a href="mailto:gillespiecalum4@gmail.com">Email – gillespiecalum4@gmail.com</a></li>
+  </ul>
+</section>
+
+<section id="appendix">
+  <h2>Appendix A – Job advert</h2>
+  <p>An offline copy of the job advert the CV was tailored to: <a href="job-advert.html">HTML</a> · <a href="assets/Leonardo_Job_Advert_R0033551.pdf">PDF</a>.</p>
+  <h2>Acknowledgement of AI use</h2>
+  <p>In line with the assessment's AI guidance (Green rating), I used an AI assistant (GitHub Copilot) to help draft and structure the CV and this website from my own notes, grades and project descriptions. I reviewed and edited the output and take responsibility for its accuracy.</p>
+</section>
+
+</main>
+
+<footer>
+  <div>© Calum Gillespie · University of Dundee · Built for CS21001 Employability for Computing Professionals</div>
+</footer>
+</body>
+</html>
